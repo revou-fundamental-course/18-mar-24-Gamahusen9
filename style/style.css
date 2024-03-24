@@ -1,0 +1,220 @@
+        *{
+            scroll-behavior: smooth;
+        }
+        
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            scroll-behavior: smooth;
+        }
+
+    nav ul {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 50px;
+    }
+
+    nav li {
+        list-style-type: none;
+        border: 2px solid black;
+        padding: 10px 20px;
+    }
+
+    nav li:hover{
+        background-color: black;
+        transition: 0.5s;
+        color: white;
+    }
+    a{
+        text-decoration: none;
+         color: black;
+    }
+
+    li a:hover{
+        color: white;
+    }
+
+    nav h1 {
+        margin-top: -55px;
+        margin-left: 20px;
+    }
+
+    hr {
+        margin-top: 30px;
+    }
+
+    .judul {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .judul p {
+        margin: 75px;
+        color: #9c9c9c;
+        font-size: 20px;
+    }
+
+    .content {
+        margin-top: 10px;
+        height: 750px;
+        display: flex;
+    }
+
+    .contactus {
+        border-radius: 10px;
+        width: 600px;
+        margin-left: 30px;
+        margin-right: 50px;
+        background-color: #e0e2ef;
+        height: 600px;
+    }
+
+    .contactus .text {
+        text-align: start;
+        margin: 50px;
+        margin-bottom: 75px;
+    }
+
+
+    .contactus p {
+        width: 300px;
+    }
+
+    .contactus form {
+        height: 300px;
+        margin: 20px;
+        margin-left: 50px;
+    }
+
+    .contactus form label {
+        margin-top: 30px;
+    }
+
+    .contactus form input {
+        margin: 5px 0px 30px 0px;
+        padding: 10px;
+        width: 280px;
+        height: 20px;
+        border-radius: 5px;
+        border: 1px solid gray;
+    }
+
+    .contactus form select {
+        margin: 5px 0px 20px 0px;
+        padding: 10px;
+        width: 300px;
+        height: 45px;
+        border-radius: 5px;
+        border: 1px solid gray;
+    }
+
+    .contactus form button {
+        margin-top: 20px;
+        width: 300px;
+        height: 40px;
+        color: white;
+        background-color: black;
+        border-radius: 5px;
+    }
+
+    .contentimg img {
+        border-radius: 10px;
+        margin-left: 50px;
+        width: 750px;
+        height: 375px;
+        transition: opacity 1s;
+    }
+
+    .contentimg .ket {
+        margin-top: 50px;
+        margin-left: 150px;
+        width: 450px;
+        font-size: 20px;
+
+    }
+
+    .user {
+        width: 500px;
+        display: flex;
+        margin-top: 30px;
+        margin-left: 150px;
+    }
+
+    .user svg {
+        margin-top: 20px;
+    }
+
+    .user .text {
+        margin-left: 30px;
+        font-size: 15px;
+    }
+
+    .information {
+        margin-top: 50px;
+        margin-left: 130px;
+        width: 550px;
+    }
+
+    .middle-content{
+        width: auto;
+        margin-top: 250px;
+        height: 800px
+    }
+
+    .middle-content h1{
+        padding-top: 100px;
+        height: 150px;
+        background-color:#e0e2ef;
+        text-align: center
+    }
+
+ 
+
+    .city{
+        display: flex;
+        justify-content:space-evenly;
+        flex-wrap: wrap;
+        gap: 50px;
+        margin-top: 100px;
+    }
+
+    .content-kota p{
+        margin-top: -10px;
+    }
+
+    .content-kota img{
+        width: 50px;
+        height: 50px;
+        border-radius: 100px;
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+
+    .content-kota{
+        display: flex;
+    }
+
+    .content-kota p{
+        width: 250px;
+    }
+
+    .bottom-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 300px;
+    }
+
+    .bottom-content button{
+        margin-top: 30px;
+        color: white;
+        width: 200px;
+        border-radius: 10px;
+        height: 50px;
+        background-color: black;
+    }
+
+  
+
+    
