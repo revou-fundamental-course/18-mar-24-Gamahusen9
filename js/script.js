@@ -6,24 +6,26 @@ function validateForm() {
     if (username == '') {
         alert('name is required!!')
         return false
-    }
-
-    // Email validation
-    if (email == "") {
+    } else if (email == "") {
         alert("Email is required");
         return false;
     } else if (!/\S+@\S+\.\S+/.test(email)) {
         alert("Invalid email address");
         return false;
-    }
-
-    if (interested == "") {
+    } else if (interested == "") {
         alert('choose one interested!!')
         return false;
+    } else{
+        return sendMessage(true);
     }
+}
 
-    alert("Form succesfully submitted!")
-    return true;
+function sendMessage(message) {
+        alert("Pesan ini akan muncul sebentar sebelum Anda dialihkan ke halaman lain.");
 
-
+        // Mengarahkan pengguna ke halaman tertentu setelah 3 detik
+        setTimeout(function () {
+            window.location.href = "testing.html"; // Ganti "halaman_tujuan.html" dengan URL halaman yang Anda inginkan
+        }, 3000); // Waktu penundaan dalam milidetik (3000 ms = 3 detik)
+    
 }
